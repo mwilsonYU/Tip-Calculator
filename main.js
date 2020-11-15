@@ -1,4 +1,4 @@
-let btn = documents.getElementById('btn');
+let btn = documents.getElementById('button');
 
 btn.addEventListener('click', function(){
   let billAmount = document.getElementById('bill-amount').value;
