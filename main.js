@@ -1,8 +1,8 @@
-let btn = documents.getElementById('button');
+let btn = document.getElementById('button');
 
 btn.addEventListener('click', function(){
-  let billAmount = document.getElementById('bill-amount').value;
-  let tipPercentage = document.getElementById('tip-percentage').value;
+  let billAmount = number(document.getElementById('bill-amount').value);
+  let tipPercentage = number(document.getElementById('tip-percentage').value);
 
   
   let tipAmount = document.getElementById('tip_amount').value = billAmount / tipPercentage;
